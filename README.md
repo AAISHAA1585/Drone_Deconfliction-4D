@@ -1,5 +1,5 @@
-FlytBase Drone Deconfliction System
-A strategic deconfliction system that validates a drone's planned mission for spatio-temporal conflicts in shared airspace. This project was developed as part of the FlytBase internship assignment, focusing on robust and scalable flight path analysis.
+Drone Deconfliction System
+A strategic deconfliction system that validates a drone's planned mission for spatio-temporal conflicts in shared airspace. This project was developed as focusing on robust and scalable flight path analysis.
 
 ---
 
@@ -16,29 +16,29 @@ Key Features
 
 
 
-## 2. Folder structure
+## 2. Folder structure 
 
-flytbase_deconfliction/
+drone_deconfliction/
 │
-├── run_deconflict.py # Main script
-├── requirements.txt # Libraries needed
-├── README.md # This file
+├── run_deconflict.py 
+├── requirements.txtd
+├── README.md 
 │
-├── deconflict/ # Code files
-│ ├── io.py # Reads JSON input
-│ ├── trajectory.py # Calculates positions
-│ ├── detector.py # Checks conflicts
-│ ├── visualizer.py # Draws and animates drones
-│ ├── utils.py # (Optional) helper functions
+├── deconflict/
+│ ├── io.py 
+│ ├── trajectory.py 
+│ ├── detector.py 
+│ ├── visualizer.py 
+│ ├── utils.py
 │
-├── scenarios/ # Input data
+├── scenarios/ 
 │ ├── primary.json
 │ ├── others.json
 │
-├── demo/ # Output animations
+├── demo/ 
 │ ├── conflict_animation.gif
 │
-└── docs/ # Extra documents
+└── docs/ 
 ├── reflection.pdf
 
 
