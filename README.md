@@ -16,30 +16,30 @@ Key Features
 
 
 
-## 2. Folder structure 
+## 2. Folder structure <br>
 
-drone_deconfliction/
+drone_deconfliction/<br>
 │
-├── run_deconflict.py 
-├── requirements.txtd
-├── README.md 
+├── run_deconflict.py <br>
+├── requirements.txtd<br>
+├── README.md <br>
 │
-├── deconflict/
-│ ├── io.py 
-│ ├── trajectory.py 
-│ ├── detector.py 
-│ ├── visualizer.py 
-│ ├── utils.py
+├── deconflict/<br>
+│ ├── io.py <br>
+│ ├── trajectory.py <br>
+│ ├── detector.py <br>
+│ ├── visualizer.py <br>
+│ ├── utils.py<br>
 │
-├── scenarios/ 
-│ ├── primary.json
-│ ├── others.json
+├── scenarios/ <br>
+│ ├── primary.json<br>
+│ ├── others.json<br>
 │
-├── demo/ 
-│ ├── conflict_animation.gif
+├── demo/ <br>
+│ ├── conflict_animation.gif<br>
 │
-└── docs/ 
-├── reflection.pdf
+└── docs/ <br>
+├── reflection.pdf<br>
 
 
 Setup Instructions
